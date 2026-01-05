@@ -1,0 +1,282 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "projects": "Projeler",
+    "skills": "Yetenekler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "name": "Mehmet Erbişim",
+    "title": "Kıyı ve Deniz Yapıları Mühendisi",
+    "subtitle": "HEC Engineering & Consulting - Genel Müdür",
+    "quote": "Most of the world is either a fluid or in contact with one—so understanding fluid motion matters.",
+    "viewProjects": "Projeleri Görüntüle",
+    "contact": "İletişime Geç"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "bio": "HEC Engineering & Consulting'de Genel Müdür olarak, kıyı mühendisliği, hidrodinamik analiz ve hidrolik mühendisliği alanlarında uzmanlık sunuyorum. Altyapı ve inşaat projelerinde yenilikçi ve sürdürülebilir çözümler geliştirerek, dünya çapında öncü projeler yönetiyorum.",
+    "education": "Eğitim",
+    "educationDetails": "İstanbul Teknik Üniversitesi - Geoteknik Mühendisliği (Yüksek Lisans, Devam Ediyor)\nİstanbul Teknik Üniversitesi - İnşaat Mühendisliği (Lisans, 2021)",
+    "employment": "İş Deneyimi",
+    "employmentDetails": "HEC Engineering & Consulting\nGenel Müdür | 2021 - Günümüz",
+    "patent": "Patent",
+    "patentTitle": "Yaylı Sistem ile Donatılmış Yüzer İskele ve Kazık Arası Kılavuz Sistemi",
+    "patentNumber": "WO2024172801A1",
+    "publications": "Yayınlar",
+    "publicationsCount": "2+ uluslararası yayın",
+    "yearsExperience": "Yıl Deneyim",
+    "projectsCompleted": "Tamamlanan Proje",
+    "expertise": "Uzmanlık Alanı"
+  },
+  "projects": {
+    "title": "Projeler",
+    "viewDetails": "Detayları Gör",
+    "allProjects": "Tüm Projeler",
+    "backToProjects": "Projelere Dön",
+    "expertiseTechnologies": [
+      "Hidrodinamik Modelleme",
+      "CFD Analizi",
+      "Dalga Analizi",
+      "Sayısal Modelleme",
+      "Kıyı Mühendisliği",
+      "Yapısal Yük Hesabı"
+    ],
+    "project1": {
+      "title": "Haydar Aliyev Parkı Kıyı Yapıları Hidrodinamik Analizi",
+      "location": "Kireçburnu, İstanbul",
+      "year": "2025",
+      "category": "Kıyı Mühendisliği",
+      "description": "Çalışmada Kireçburnu sahasında kıyı yapılarının dalga etkileri altındaki performansı sayısal analizlerle değerlendirilmiş; dalga iklimi ve dalga transformasyonu sonuçları üzerinden kıyı düzenlemesi, iskele/bağlama düzeni ve kritik bölgelerdeki hidrodinamik hassasiyetler teknik olarak ortaya konmuştur."
+    },
+    "project2": {
+      "title": "AMAN Bodrum Kıyı Yapıları Tasarım Projesi",
+      "location": "Bodrum",
+      "year": "2025",
+      "category": "Hidrodinamik Analiz",
+      "description": "Proje kapsamında sahaya özgü hidrodinamik koşullar değerlendirilerek kıyı yapılarının dalga-akıntı etkileri altında davranışı incelenmiş, tasarımın emniyet ve işletme konforu açısından uygunluğu kontrol edilmiştir."
+    },
+    "project3": {
+      "title": "Thilafushi WtE Tesisi Deniz Suyu Alma Yapısı",
+      "location": "Maldivler",
+      "year": "2025",
+      "category": "Su Alma Yapısı",
+      "description": "Thilafushi Waste-to-Energy tesisinde deniz suyu alma yapısı ile deşarj/difüzör sisteminin hidrodinamik performansı birlikte ele alınmış; işletme senaryoları altında akım alanı, karışım-dilüsyon davranışı ve sistem güvenilirliği değerlendirilmiştir."
+    },
+    "project4": {
+      "title": "Phaselis Antik Kenti Liman Surları Koruma Yapısı",
+      "location": "Antalya",
+      "year": "2024",
+      "category": "Antik Liman",
+      "description": "Antik liman çevresinde dalga koşulları ve yakın kıyı dalga dönüşümü değerlendirilerek, sur ve kulelerin korunmasına yönelik kıyı koruma yaklaşımı sayısal analizlerle temellendirilmiştir."
+    },
+    "project5": {
+      "title": "SIRO Batarya Tesisi Derin Deniz Deşarj Hattı",
+      "location": "Türkiye",
+      "year": "2024",
+      "category": "Endüstriyel Tesis",
+      "description": "Projede önce rüzgar ve dalga iklimi analizi ile tasarım met-ocean girdileri üretilmiş; devamında derin deniz deşarj boru hatları güzergâhı ve temel tasarım parametreleri geliştirilmiştir."
+    },
+    "project6": {
+      "title": "COTC Complex Deniz Suyu Alma ve Deşarj Hatları",
+      "location": "SASA",
+      "year": "2023/2024",
+      "category": "Endüstriyel Tesis",
+      "description": "COTC Complex kapsamında soğutma suyu ihtiyacına yönelik deniz suyu alma sistemi ile deniz deşarj hattı ve difüzör yaklaşımı Stage-1 için detay tasarım seviyesinde ele alınmıştır."
+    },
+    "project7": {
+      "title": "İskenderun Sahili Kentsel Tasarım Projesi",
+      "location": "İskenderun",
+      "year": "2025",
+      "category": "Kentsel Kıyı",
+      "description": "Kıyı şeridindeki düzenlemelerin dalga-akıntı rejimiyle etkileşimi sayısal modelleme yaklaşımıyla incelenmiş; kıyı yapıları, güçlendirmeler ve kentsel tasarım bileşenlerinin hidrodinamik performansı değerlendirilmiştir."
+    },
+    "project8": {
+      "title": "Florya Atatürk Köşkü İskelesi Dalga Yükleri Analizi",
+      "location": "İstanbul",
+      "year": "2024/2025",
+      "category": "Yapısal Analiz",
+      "description": "Çalışmada dalga iklimi ve ekstrem koşullar belirlenmiş; bathimetri/topoğrafya ile oluşturulan sayısal ortamda dalga transformasyonu modellenerek kazık/taşıyıcı elemanlara etkiyen dalga yükleri hesaplanmıştır."
+    },
+    "project9": {
+      "title": "Benesta Center Bahçelievler Taşkın Riski Analizi",
+      "location": "İstanbul",
+      "year": "2025",
+      "category": "Taşkın Analizi",
+      "description": "Proje alanında taşkın tehlikesi; yağış-havza tepkisi ve mevcut drenaj/taşıma kapasitesi dikkate alınarak hidrolojik ve hidrolik değerlendirmelerle analiz edilmiştir."
+    },
+    "project10": {
+      "title": "PETKİM Yağmursuyu Drenaj Sistemi Modelleme",
+      "location": "İzmir",
+      "year": "2021",
+      "category": "Drenaj Sistemi",
+      "description": "Tesis yağmursuyu drenaj altyapısı hidrolik açıdan ele alınarak hatların kapasite yeterliliği, kritik dar boğazlar ve taşma riski oluşturan senaryolar teknik olarak değerlendirilmiştir."
+    },
+    "project11": {
+      "title": "TCDD Demiryolu Menfez Hidrodinamik Yeterlilik Analizi",
+      "location": "Afyon",
+      "year": "2022",
+      "category": "Köprü Analizi",
+      "description": "Demiryolu hattının dere/akarsu geçişinde yer alan menfezinin taşkın anındaki hidrodinamik davranışı sayısal yöntemlerle değerlendirilmiş; kapasite yeterliliği ve kritik hidrolik etkiler incelenmiştir."
+    },
+    "project12": {
+      "title": "Ozak Bodrum Otel Projesi Kıyı Düzenlemesi",
+      "location": "Bodrum",
+      "year": "2021",
+      "category": "Kıyı Düzenlemesi",
+      "description": "Otel sahasında kıyı düzenleme kararları ile drenaj altyapısı, saha koşulları ve işletme ihtiyaçları dikkate alınarak mühendislik tasarımına dönüştürülmüştür."
+    },
+    "project13": {
+      "title": "Hobyo Liman Projesi Hidrodinamik Analiz",
+      "location": "Somali",
+      "year": "2022",
+      "category": "Liman Mühendisliği",
+      "description": "Proje alanının rüzgar-dalga iklimi oluşturulmuş; dalga transformasyonu, liman içi çalkantı ve morfolojik değişim eğilimleri sayısal modelleme araçlarıyla değerlendirilmiştir."
+    },
+    "project14": {
+      "title": "Aksoy Epique Island Kıyı Yapıları Değerlendirmesi",
+      "location": "Muğla",
+      "year": "2023",
+      "category": "Performans Analizi",
+      "description": "Mevcut kıyı yapılarının sahaya özgü hidrodinamik koşullar altındaki performansı değerlendirilerek, zayıf noktalar ve iyileştirme alanları mühendislik kriterleriyle analiz edilmiştir."
+    },
+    "project15": {
+      "title": "Pearl of İstanbul Güzelce Marina",
+      "location": "İstanbul",
+      "year": "2023",
+      "category": "Marina Mühendisliği",
+      "description": "Marina ve çevresinde hidrodinamik etkiler ile morfodinamik değişim potansiyeli birlikte ele alınmış; dalga koşulları, iç havza davranışı ve sediment dinamikleri değerlendirilmiştir."
+    },
+    "project16": {
+      "title": "Lord Palace Kıyı Yapıları Sirkülasyon Analizi",
+      "location": "KKTC",
+      "year": "2023",
+      "category": "Sirkülasyon Analizi",
+      "description": "Kıyı yapı düzeninin su sirkülasyonu üzerindeki etkisi hidrodinamik analiz yöntemleriyle incelenerek, durgunluk bölgeleri ve yenilenme davranışı senaryo bazlı değerlendirilmiştir."
+    },
+    "project17": {
+      "title": "BAGFAŞ Deniz Suyu Dönüş Hattı Eşanjör Tasarımı",
+      "location": "Türkiye",
+      "year": "2025",
+      "category": "Termal Analiz",
+      "description": "Soğutma amaçlı kullanılan deniz suyunun deşarj sıcaklığının mevzuat limitleriyle uyumlu tutulması için dönüş hattına eklenecek eşanjör çözümü ısı dengesi yaklaşımıyla değerlendirilmiştir."
+    },
+    "project18": {
+      "title": "Kemerköy Termal Deşarj Mühendislik Değerlendirmesi",
+      "location": "Türkiye",
+      "year": "2025",
+      "category": "Termal Santral",
+      "description": "Tesisin soğutma suyu alma-dönüş ve deşarj süreçleri; hidrodinamik/termal etkiler ve uyum kriterleri dikkate alınarak mühendislik bakışıyla değerlendirilmiştir."
+    },
+    "project19": {
+      "title": "Bodrum Kıyı Düzenleme ve Morfolojik Analiz",
+      "location": "Muğla",
+      "year": "2023",
+      "category": "Plaj Tasarımı",
+      "description": "Kıyı düzenleme/yapay plaj yaklaşımı; dalga koşulları, sediment hareketliliği ve sahil çizgisi tepkisi açısından morfolojik analizlerle değerlendirilmiştir."
+    },
+    "project20": {
+      "title": "Kuşadası Marina Rehabilitasyon Projesi",
+      "location": "Kuşadası",
+      "year": "2020",
+      "category": "Marina Mühendisliği",
+      "description": "Marina yapılarının rehabilitasyon çalışmaları kapsamında hidrodinamik koşullar ve yapısal performans değerlendirmeleri gerçekleştirilmiştir."
+    },
+    "project21": {
+      "title": "Mesa Gölköy Bodrum Drenaj Altyapısı",
+      "location": "Bodrum",
+      "year": "2020",
+      "category": "Drenaj",
+      "description": "Yerleşim alanında drenaj altyapısının tasarımı ve kapasite değerlendirmeleri hidrolik modelleme yöntemleriyle gerçekleştirilmiştir."
+    }
+  },
+  "skills": {
+    "title": "Yetenekler & Uzmanlık",
+    "technical": "Teknik Yetenekler",
+    "software": "Yazılım & Araçlar",
+    "expertise": "Uzmanlık Alanları",
+    "showMore": "Daha Fazla Göster",
+    "showLess": "Daha Az Göster",
+    "technicalSkills": [
+      "CFD Analizi",
+      "Kıyı Mühendisliği",
+      "Dalga Analizi",
+      "Drenaj Sistemleri",
+      "GIS & Mapping",
+      "Hidrodinamik Modelleme",
+      "Hidrolik Mühendislik",
+      "Kıyı Mühendisliği",
+      "Marina Tasarımı",
+      "Morfolojik Analiz",
+      "Proje Yönetimi",
+      "Sayısal Modelleme",
+      "Sediment Analizi",
+      "Taşkın Analizi",
+      "Termal Analiz"
+    ],
+    "softwareTools": [
+      "ANSYS",
+      "ArcGIS",
+      "AutoCAD",
+      "DELFT3D",
+      "EPANET",
+      "Excel (İleri Seviye)",
+      "FLOW-3D",
+      "FUNWAVE",
+      "GIS Software",
+      "GLOBAL MAPPER",
+      "HEC-HMS",
+      "HEC-RAS",
+      "MATLAB",
+      "Microsoft Office Suite",
+      "MIKE 21/3",
+      "OpenFOAM",
+      "Python",
+      "QGIS",
+      "SMS-CMS",
+      "SMS-GENCADE",
+      "SWAN",
+      "TECPLOT",
+      "Telemac"
+    ],
+    "expertiseAreas": [
+      "Antik Liman Koruma",
+      "Dalga Transformasyonu",
+      "Deniz Deşarj Sistemleri",
+      "Deniz Suyu Alma Yapıları",
+      "Difüzör Tasarımı",
+      "Erozyon Kontrolü",
+      "Kentsel Kıyı Düzenlemesi",
+      "Kıyı Koruma Yapıları",
+      "Liman Çalkantı Analizi",
+      "Marina Hidrodinamik",
+      "Met-Ocean Analizi",
+      "Morfodinamik",
+      "Plaj Tasarımı",
+      "Rüzgar-Dalga İklimi",
+      "Sirkülasyon Analizi",
+      "Su Sirkülasyonu",
+      "Taşkın Risk Değerlendirmesi",
+      "Termal Deşarj",
+      "Yapısal Yük Hesabı",
+      "Yağmursuyu Drenajı"
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "Projeleriniz için benimle iletişime geçin",
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "send": "Gönder",
+    "sendEmail": "E-posta Gönder",
+    "phone": "Telefon",
+    "location": "Konum",
+    "social": "Sosyal Medya"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  }
+}

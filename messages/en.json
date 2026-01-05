@@ -1,0 +1,282 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Mehmet Erbişim",
+    "title": "Coastal & Marine Structures Engineer",
+    "subtitle": "HEC Engineering & Consulting - General Manager",
+    "quote": "Most of the world is either a fluid or in contact with one—so understanding fluid motion matters.",
+    "viewProjects": "View Projects",
+    "contact": "Get in Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "As General Manager at HEC Engineering & Consulting, I specialize in coastal engineering, hydrodynamic analysis, and hydraulic engineering. I develop innovative and sustainable solutions in infrastructure and construction projects, managing pioneering projects worldwide.",
+    "education": "Education",
+    "educationDetails": "Istanbul Technical University - Geotechnical Engineering (M.Sc., Ongoing)\nIstanbul Technical University - Civil Engineering (B.Sc., 2021)",
+    "employment": "Employment",
+    "employmentDetails": "HEC Engineering & Consulting\nGeneral Manager | 2021 - Present",
+    "patent": "Patent",
+    "patentTitle": "Guide System Between Floating Pier and Pile Having Springs",
+    "patentNumber": "WO2024172801A1",
+    "publications": "Publications",
+    "publicationsCount": "2+ international publications",
+    "yearsExperience": "Years Experience",
+    "projectsCompleted": "Projects Completed",
+    "expertise": "Areas of Expertise"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewDetails": "View Details",
+    "allProjects": "All Projects",
+    "backToProjects": "Back to Projects",
+    "expertiseTechnologies": [
+      "Hydrodynamic Modeling",
+      "CFD Analysis",
+      "Wave Analysis",
+      "Numerical Modeling",
+      "Coastal Engineering",
+      "Structural Load Calculation"
+    ],
+    "project1": {
+      "title": "Haydar Aliyev Park Coastal Structures Hydrodynamic Analysis",
+      "location": "Kireçburnu, Istanbul",
+      "year": "2025",
+      "category": "Coastal Engineering",
+      "description": "Performance evaluation of coastal structures under wave effects using numerical analysis; hydrodynamic sensitivities in coastal layout, pier/mooring arrangement, and critical areas were technically assessed."
+    },
+    "project2": {
+      "title": "AMAN Bodrum Coastal Structures Design Project",
+      "location": "Bodrum",
+      "year": "2025",
+      "category": "Hydrodynamic Analysis",
+      "description": "Site-specific hydrodynamic conditions were evaluated, examining the behavior of coastal structures under wave-current effects, and design adequacy in terms of safety and operational comfort was verified."
+    },
+    "project3": {
+      "title": "Thilafushi WtE Facility Seawater Intake Structure",
+      "location": "Maldives",
+      "year": "2025",
+      "category": "Water Intake",
+      "description": "Hydrodynamic performance of the seawater intake structure and discharge/diffuser system at Thilafushi Waste-to-Energy facility was evaluated under operational scenarios."
+    },
+    "project4": {
+      "title": "Phaselis Ancient City Harbor Walls Protection Structure",
+      "location": "Antalya",
+      "year": "2024",
+      "category": "Ancient Harbor",
+      "description": "Wave conditions and nearshore wave transformation around the ancient harbor were evaluated, and coastal protection approach for walls and towers was established through numerical analyses."
+    },
+    "project5": {
+      "title": "SIRO Battery Facility Deep Sea Discharge Line",
+      "location": "Turkey",
+      "year": "2024",
+      "category": "Industrial Facility",
+      "description": "Wind-wave climate analysis was performed to generate design met-ocean inputs, followed by development of deep-sea discharge pipeline routing and fundamental design parameters."
+    },
+    "project6": {
+      "title": "COTC Complex Seawater Intake and Discharge Lines",
+      "location": "SASA",
+      "year": "2023/2024",
+      "category": "Industrial Facility",
+      "description": "Seawater intake system and sea discharge line with diffuser approach for cooling water requirements were addressed at detailed design level for Stage-1."
+    },
+    "project7": {
+      "title": "Iskenderun Coastal Urban Design Project",
+      "location": "Iskenderun",
+      "year": "2025",
+      "category": "Urban Coastal",
+      "description": "Interaction of coastal developments with wave-current regime was examined using numerical modeling; hydrodynamic performance of coastal structures and urban design components was evaluated."
+    },
+    "project8": {
+      "title": "Florya Atatürk Pavilion Pier Wave Load Analysis",
+      "location": "Istanbul",
+      "year": "2024/2025",
+      "category": "Structural Analysis",
+      "description": "Wave climate and extreme conditions were determined; wave transformation was modeled in numerical environment with bathymetry/topography, and wave loads on pile/supporting elements were calculated."
+    },
+    "project9": {
+      "title": "Benesta Center Flood Risk Analysis",
+      "location": "Istanbul",
+      "year": "2025",
+      "category": "Flood Analysis",
+      "description": "Flood hazard in the project area was analyzed through hydrological and hydraulic assessments, considering rainfall-watershed response and existing drainage/conveyance capacity."
+    },
+    "project10": {
+      "title": "PETKIM Rainwater Drainage System Modeling",
+      "location": "Izmir",
+      "year": "2021",
+      "category": "Drainage System",
+      "description": "Facility rainwater drainage infrastructure was addressed hydraulically; line capacity adequacy, critical bottlenecks, and overflow risk scenarios were technically evaluated."
+    },
+    "project11": {
+      "title": "TCDD Railway Culvert Hydrodynamic Adequacy Analysis",
+      "location": "Afyon",
+      "year": "2022",
+      "category": "Bridge Analysis",
+      "description": "Hydrodynamic behavior of the culvert at stream crossing during flood was evaluated using numerical methods; capacity adequacy and critical hydraulic effects were examined."
+    },
+    "project12": {
+      "title": "Ozak Bodrum Hotel Project Coastal Regulation",
+      "location": "Bodrum",
+      "year": "2021",
+      "category": "Coastal Regulation",
+      "description": "Coastal regulation decisions and drainage infrastructure at hotel site were transformed into engineering design, considering site conditions and operational requirements."
+    },
+    "project13": {
+      "title": "Hobyo Port Project Hydrodynamic Analysis",
+      "location": "Somalia",
+      "year": "2022",
+      "category": "Port Engineering",
+      "description": "Wind-wave climate of the project area was developed; wave transformation, harbor agitation, and morphological change trends were evaluated using numerical modeling tools."
+    },
+    "project14": {
+      "title": "Aksoy Epique Island Coastal Structures Assessment",
+      "location": "Mugla",
+      "year": "2023",
+      "category": "Performance Analysis",
+      "description": "Performance of existing coastal structures under site-specific hydrodynamic conditions was evaluated; weak points and improvement areas were analyzed using engineering criteria."
+    },
+    "project15": {
+      "title": "Pearl of Istanbul Guzelce Marina",
+      "location": "Istanbul",
+      "year": "2023",
+      "category": "Marina",
+      "description": "Hydrodynamic effects and morphodynamic change potential in and around the marina were addressed together; environmental and operational performance of the design was evaluated."
+    },
+    "project16": {
+      "title": "Lord Palace Coastal Structures Circulation Analysis",
+      "location": "Northern Cyprus",
+      "year": "2023",
+      "category": "Circulation Analysis",
+      "description": "Effect of coastal structure layout on water circulation was examined using hydrodynamic analysis methods; stagnation zones and renewal behavior were evaluated scenario-based."
+    },
+    "project17": {
+      "title": "BAGFAŞ Seawater Return Line Heat Exchanger Design",
+      "location": "Turkey",
+      "year": "2025",
+      "category": "Thermal Analysis",
+      "description": "Heat exchanger solution to be added to return line was evaluated using heat balance approach to keep discharge temperature of cooling seawater compliant with regulatory limits."
+    },
+    "project18": {
+      "title": "Kemerkoy Thermal Discharge Engineering Assessment",
+      "location": "Turkey",
+      "year": "2025",
+      "category": "Thermal Power Plant",
+      "description": "Cooling water intake-return and discharge processes of the facility were evaluated from an engineering perspective, considering hydrodynamic/thermal effects and compliance criteria."
+    },
+    "project19": {
+      "title": "Bodrum Coastal Regulation and Morphological Analysis",
+      "location": "Mugla",
+      "year": "2023",
+      "category": "Beach Design",
+      "description": "Coastal regulation/artificial beach approach was evaluated through morphological analyses in terms of wave conditions, sediment mobility, and shoreline response."
+    },
+    "project20": {
+      "title": "Kusadasi Marina Rehabilitation Project",
+      "location": "Kusadasi",
+      "year": "2020",
+      "category": "Marina",
+      "description": "Hydrodynamic conditions and structural performance assessments were carried out within the scope of marina structures rehabilitation works."
+    },
+    "project21": {
+      "title": "Mesa Golkoy Bodrum Drainage Infrastructure",
+      "location": "Bodrum",
+      "year": "2020",
+      "category": "Drainage",
+      "description": "Design of drainage infrastructure in residential area and capacity assessments were performed using hydraulic modeling methods."
+    }
+  },
+  "skills": {
+    "title": "Skills & Expertise",
+    "technical": "Technical Skills",
+    "software": "Software & Tools",
+    "expertise": "Areas of Expertise",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "technicalSkills": [
+      "CFD Analysis",
+      "Coastal Engineering",
+      "Wave Analysis",
+      "Drainage Systems",
+      "GIS & Mapping",
+      "Hydrodynamic Modeling",
+      "Hydraulic Engineering",
+      "Coastal Engineering",
+      "Marina Design",
+      "Morphological Analysis",
+      "Project Management",
+      "Numerical Modeling",
+      "Sediment Analysis",
+      "Flood Analysis",
+      "Thermal Analysis"
+    ],
+    "softwareTools": [
+      "ANSYS",
+      "ArcGIS",
+      "AutoCAD",
+      "DELFT3D",
+      "EPANET",
+      "Excel (Advanced)",
+      "FLOW-3D",
+      "FUNWAVE",
+      "GIS Software",
+      "GLOBAL MAPPER",
+      "HEC-HMS",
+      "HEC-RAS",
+      "MATLAB",
+      "Microsoft Office Suite",
+      "MIKE 21/3",
+      "OpenFOAM",
+      "Python",
+      "QGIS",
+      "SMS-CMS",
+      "SMS-GENCADE",
+      "SWAN",
+      "TECPLOT",
+      "Telemac"
+    ],
+    "expertiseAreas": [
+      "Ancient Harbor Protection",
+      "Wave Transformation",
+      "Marine Discharge Systems",
+      "Seawater Intake Structures",
+      "Diffuser Design",
+      "Erosion Control",
+      "Urban Coastal Planning",
+      "Coastal Protection Structures",
+      "Harbor Agitation Analysis",
+      "Marina Hydrodynamics",
+      "Met-Ocean Analysis",
+      "Morphodynamics",
+      "Beach Design",
+      "Wind-Wave Climate",
+      "Circulation Analysis",
+      "Water Circulation",
+      "Flood Risk Assessment",
+      "Thermal Discharge",
+      "Structural Load Calculation",
+      "Stormwater Drainage"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch for your projects",
+    "name": "Full Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send",
+    "sendEmail": "Send Email",
+    "phone": "Phone",
+    "location": "Location",
+    "social": "Social Media"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
