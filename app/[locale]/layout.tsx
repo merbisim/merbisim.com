@@ -27,22 +27,24 @@ export default async function LocaleLayout({
 
 
   return (
-    <div className={`${inter.variable} ${spaceGrotesk.variable}`}>
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="dark"
-        enableSystem={false}
-        disableTransitionOnChange={false}
-      >
-        <NextIntlClientProvider messages={messages}>
-          <div className="relative min-h-screen flex flex-col font-sans antialiased">
-            <Navbar />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
-        </NextIntlClientProvider>
-      </ThemeProvider>
-    </div>
+    <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${spaceGrotesk.variable}`}>
+      <body className="font-sans antialiased">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+          disableTransitionOnChange={false}
+        >
+          <NextIntlClientProvider messages={messages}>
+            <div className="relative min-h-screen flex flex-col">
+              <Navbar />
+              <main className="flex-1">{children}</main>
+              <Footer />
+            </div>
+          </NextIntlClientProvider>
+        </ThemeProvider>
+      </body>
+    </html>
   );
 }
 

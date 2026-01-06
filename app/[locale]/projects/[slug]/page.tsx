@@ -4,6 +4,7 @@ import { BackButton } from './BackButton';
 
 // Force static generation
 export const dynamic = 'force-static';
+export const dynamicParams = false;
 
 // Project slugs mapping
 const projectSlugs: { [key: string]: number } = {
@@ -137,12 +138,14 @@ export async function generateStaticParams() {
   const slugs = Object.keys(projectSlugs);
   const locales = ['tr', 'en'];
   
-  return locales.flatMap((locale) =>
+  const params = locales.flatMap((locale) =>
     slugs.map((slug) => ({
       locale,
       slug,
     }))
   );
+  
+  return params;
 }
 
 export default async function ProjectPage({ params }: ProjectPageProps) {
