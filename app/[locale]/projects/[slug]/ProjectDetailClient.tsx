@@ -28,15 +28,6 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
     setPosition({ x: 0, y: 0 });
   };
 
-  const handleWheel = (e: React.WheelEvent) => {
-    if (selectedImage) {
-      e.preventDefault();
-      const delta = e.deltaY * -0.01;
-      const newZoom = Math.min(Math.max(1, zoom + delta), 5);
-      setZoom(newZoom);
-    }
-  };
-
   const handleMouseMove = (e: React.MouseEvent) => {
     if (selectedImage && zoom > 1) {
       const rect = e.currentTarget.getBoundingClientRect();
@@ -90,16 +81,11 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
       </div>
 
       {/* Lightbox Modal */}
-      <AnimatePresence>
-        {selectedImage && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
-            onClick={handleClose}
-            onWheel={handleWheel}
-          >
+      {selectedImage && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          onClick={handleClose}
+        >
             {/* Close Button */}
             <button
               onClick={handleClose}
@@ -148,10 +134,7 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
             </div>
 
             {/* Image Container */}
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
+            <div
               className="relative w-full h-full max-w-7xl max-h-[90vh]"
               onClick={(e) => e.stopPropagation()}
               onMouseMove={handleMouseMove}
@@ -173,7 +156,7 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
                   priority
                 />
               </div>
-            </motion.div>
+            </div>
 
             {/* Navigation Arrows */}
             {project.images.length > 1 && (
@@ -210,9 +193,8 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
                 </button>
               </>
             )}
-          </motion.div>
-        )}
-      </AnimatePresence>
+        </div>
+      )}
     </>
   );
 }
