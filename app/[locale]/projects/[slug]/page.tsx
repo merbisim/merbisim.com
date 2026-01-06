@@ -3,7 +3,6 @@ import { ProjectDetailClient } from './ProjectDetailClient';
 import { BackButton } from './BackButton';
 
 // Force static generation
-export const dynamic = 'force-static';
 export const dynamicParams = false;
 
 // Project slugs mapping
