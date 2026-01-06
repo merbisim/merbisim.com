@@ -1,7 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { createPortal } from 'react-dom';
+import { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -16,11 +15,6 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [zoom, setZoom] = useState(1);
   const [position, setPosition] = useState({ x: 0, y: 0 });
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   const handleImageClick = (image: string) => {
     setSelectedImage(image);
@@ -96,17 +90,16 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
       </div>
 
       {/* Lightbox Modal */}
-      {mounted && createPortal(
-        <AnimatePresence>
-          {selectedImage && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
-              onClick={handleClose}
-              onWheel={handleWheel}
-            >
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+            onClick={handleClose}
+            onWheel={handleWheel}
+          >
             {/* Close Button */}
             <button
               onClick={handleClose}
