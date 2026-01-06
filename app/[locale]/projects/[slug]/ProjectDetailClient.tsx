@@ -210,11 +210,9 @@ export function ProjectDetailClient({ project }: ProjectDetailClientProps) {
                 </button>
               </>
             )}
-            </motion.div>
-          )}
-        </AnimatePresence>,
-        document.body
-      )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </>
   );
 }
